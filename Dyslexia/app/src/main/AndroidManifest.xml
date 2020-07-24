@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nitishchandra.dyslexia">
+
+    <application
+        android:name=".GlobalClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".general_test_result"></activity>
+        <activity android:name=".general_test_level3" />
+        <activity android:name=".general_test_level2" />
+        <activity android:name=".GeneralTest" />
+        <activity android:name=".generalTestLevel1" />
+        <activity android:name=".GeneralTestStart" />
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profile"
+            android:label="Profile" />
+        <activity
+            android:name=".About"
+            android:label="About">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity android:name=".Logout">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".Phono_test_start"
+            android:label="Phonological Test" />
+        <activity
+            android:name=".Phonologicaltest"
+            android:label="Phonological Test" />
+        <activity
+            android:name=".PhonologicalResult"
+            android:label="Phonological Result" />
+        <activity
+            android:name=".Dyscalculia_start"
+            android:label="Dyscalculia Test" />
+        <activity
+            android:name=".DyscalculiaTest"
+            android:label="Dyscalculia Test" />
+        <activity
+            android:name=".DyscalculiaResult"
+            android:label="Dyscalculia Result" />
+        <activity android:name=".phonolevel2" />
+        <activity android:name=".phonolevel3" />
+        <activity android:name=".phonolevel4" />
+        <activity android:name=".phonolevel1" />
+        <activity android:name=".dyscal1" />
+        <activity android:name=".dyscal2" />
+        <activity android:name=".visualLevel1" />
+        <activity android:name=".visualTest" />
+        <activity android:name=".visualLevel2Start" />
+        <activity android:name=".visualLevel2" />
+        <activity android:name=".visualTestResult" />
+        <activity android:name=".checkPreviousHistory" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

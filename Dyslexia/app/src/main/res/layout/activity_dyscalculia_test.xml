@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nitishchandra.dyslexia.DyscalculiaTest"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do the operation"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imgDyscal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/opt1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:onClick="onSubmit"
+        android:text="button1"
+        android:textSize="20dp"
+        android:background="#069B8D"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:id="@+id/opt2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onSubmit"
+        android:text="button2"
+        android:textSize="20dp"
+        android:background="#069B8D"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:id="@+id/opt3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onSubmit"
+        android:text="button3"
+        android:textSize="20dp"
+        android:background="#069B8D"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="387dp" />
+    </LinearLayout>
+
+</LinearLayout>

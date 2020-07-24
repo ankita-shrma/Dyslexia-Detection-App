@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="test name"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:id="@+id/tname"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="test score"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:id="@+id/tscore"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="test date"
+            android:gravity="right"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:id="@+id/tdate"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

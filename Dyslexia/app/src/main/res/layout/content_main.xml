@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nitishchandra.dyslexia.Home"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0"
+        android:scaleType="fitXY"
+        android:src="@drawable/dyslex" />
+
+    <TextView
+        android:id="@+id/brief"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dyslexia_desc"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/generalTestButton"
+        android:text="Take General Test"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="onGeneralStart"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tests"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/phono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phonological"
+        android:onClick="onPhonoStart"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/dysgraphia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dysgraphia"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/visual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visual"
+        android:onClick="onVisual"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/dyscalculia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dyscalculia"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="onCalculiaStart"/>
+
+</LinearLayout>

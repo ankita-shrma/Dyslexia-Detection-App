@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nitishchandra.dyslexia.visualLevel2"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="153dp"
+        android:layout_height="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rectangle"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="text"
+        android:textSize="54sp"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/black"/>
+
+
+    <TextView
+        android:id="@+id/option1"
+        android:layout_width="211dp"
+        android:layout_height="201dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/b1"
+        android:clickable="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="imageClick"
+        android:text="text"
+        android:textColor="@android:color/white"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/option2"
+        android:layout_width="196dp"
+        android:layout_height="163dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/b2"
+        android:clickable="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="imageClick"
+        android:text="text"
+        android:textColor="@android:color/white"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/option3"
+        android:layout_width="196dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginRight="205dp"
+        android:background="@drawable/b3"
+        android:clickable="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="imageClick"
+        android:text="text"
+        android:textColor="@android:color/white"
+        android:textSize="44sp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true" />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginBottom="36dp"
+        android:background="#033D7B"
+        android:onClick="onVisualSubmit"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="533dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

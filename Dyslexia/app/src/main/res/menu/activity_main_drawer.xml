@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Clinics" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Contact" />
+        <item
+            android:id="@+id/previousresult"
+            android:icon="@drawable/ic_local_atm_black_24dp"
+            android:title="Previous Result" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Log out" />
+    </group>
+
+
+
+</menu>

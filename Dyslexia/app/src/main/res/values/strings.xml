@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Dyslexia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="dyslexia_desc">Dyslexia is a specific learning disability that is neurobiological in origin. It is characterized by difficulties with accurate and/or fluent word recognition and by poor spelling and decoding abilities."</string>
+    <string name="dys_about"><p>Dyslexia refers to a neurobiological learning disability negatively affecting fluent word recognition, spelling and decoding during reading. Dyslexia is a result of the way the brain is wired, making it difficult to process sounds heard in spoken language.</p><p> This app that allows the user to identify difficulties that may lead to diagnosis of Dyslexia.
+        User will give assessments of selected Dyslexia category. Our application provides assessments for four types of Dyslexia: Phonological Dyslexia, Visual Dyslexia, Dyscalculia Dyslexia, Dysgraphia Dyslexia</p> </string>
+    <string name="dyscalculia">Dyscalculia is a learning disability in math. People with dyscalculia have trouble with math at many levels. They often struggle with key concepts like bigger vs. smaller. And they can have a hard time doing basic math problems and more abstract math.</string>
+    <string name="emptyString" />
+    <string name="section1_desc">Section 1 of Dyscalculia test includes questions in which user will count the number of objets shown on the screen</string>
+    <string name="GeneralTestDescription">The purpose of this test is to detect which type of Dyslexia a user may have.This test have four levels</string>
+    <string name="GeneralPhonoTest">Section 1 of General Test includes questions in which user will recognise the sound of single letters/words or Rhyming words</string>
+    <string name="generalVisual">Now, this section show the question to detect Visual Dyslexia. This test allows user to select a correct colour option based on text\'s colour or select the correct text as shown on the screen</string>
+
+    <string-array name="myclass">
+        <item>1st Class</item>
+        <item>2nd Class</item>
+        <item>3rd Class</item>
+        <item>4th Class</item>
+        <item>5th Class</item>
+        <item>6th Class</item>
+        <item>7th Class</item>
+        <item>8th Class</item>
+        <item>9th Class</item>
+        <item>10th Class</item>
+        <item>11th Class</item>
+        <item>12 Class</item>
+        <item>Adult</item>
+    </string-array>
+
+
+</resources>
